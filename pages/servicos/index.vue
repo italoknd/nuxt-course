@@ -5,10 +5,14 @@
         <nuxt-link to="/a-empresa">A empresa</nuxt-link>
         <nuxt-link to="/servicos">Serviços</nuxt-link>
         <nuxt-link to="/produtos">Produtos</nuxt-link>
+
+        <!--PARAMETROS DE ULR-->
+        <nuxt-link to="servicos/desenvolvimento-de-site">Desenvolvimento de Site</nuxt-link>
+        <nuxt-link to="servicos/marketing-digital">Marketing Digital</nuxt-link>
       </div>
     </div>
     <div class="container mx-auto">
-      <h1 class="text-lg font-bold">A empresa</h1>
+      <h1 class="text-lg font-bold">Serviços oferecidos</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quo
         numquam quisquam vero maxime eum incidunt? Porro facilis veritatis,
@@ -20,7 +24,11 @@
 </template>
 
 <script>
-export default {}
+export default {
+
+}
 </script>
 
-<style></style>
+<style>
+
+</style>
